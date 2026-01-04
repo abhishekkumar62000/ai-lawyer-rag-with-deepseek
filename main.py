@@ -1,6 +1,6 @@
 import streamlit as st
 
-from langchain_community.document_loaders import PDFPlumberLoader  # type: ignore
+from langchain_community.document_loaders import PDFPlumberLoader  # type: ignore 
 from langchain_text_splitters import RecursiveCharacterTextSplitter  # type: ignore
 from langchain_community.embeddings import OllamaEmbeddings  # type: ignore
 from langchain_core.prompts import ChatPromptTemplate
